@@ -32,14 +32,14 @@ if computador == 0:
 if computador == 1:
     if jogador == 0:
         print('Computador Venceu')
-    if jogador == 1:
+    elif jogador == 1:
         print('Ambos emptaram')
-    if jogador == 2:
+    elif jogador == 2:
         print('Jogador Venceu')
 if computador == 2:
     if jogador == 0:
-        print('Computador Venceu')
-    if jogador == 1:
         print('Jogador Venceu')
-    if jogador == 2:
+    elif jogador == 1:
+        print('Computador Venceu')
+    elif jogador == 2:
         print('Ambos empataram')
