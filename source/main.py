@@ -10,6 +10,8 @@ print('''Suas opções:
  [ 2 ]Tesoura''')
 
 jogador = int(input('Qual a sua jogada? '))
+if jogador > 2:
+    raise 'jogada invalida'
 
 print('JO')
 sleep(1)
